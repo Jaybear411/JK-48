@@ -12,6 +12,7 @@ def calculate_distance(p1, p2):
 pygame.mixer.init()
 sound = pygame.mixer.Sound('sound.mp3')
 
+
 cap = cv2.VideoCapture(0)
 
 cap.set(cv2.CAP_PROP_FRAME_WIDTH, 600)
